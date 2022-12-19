@@ -1,0 +1,11 @@
+<table border="1">
+  <tr>
+    <th>Name</th>
+    <th>Age</th>
+  </tr>
+
+  <tr *ngFor="let user of users">
+    <td width="100" align="center">{{ user.name }}</td>
+    <td width="100" align="center">{{ user.age }}</td>
+  </tr>
+</table>
